@@ -1,0 +1,91 @@
+body{
+    background: url(gradient.png) no-repeat center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-top: 34px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    border: 0px solid black;
+    align-items: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input-container input{
+    border: 0px solid black;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    width: 393px;
+    height: 34px;
+}
+.add-symbol{
+    width: 47px;
+    height: 49px;
+    background-color: #8b38aa;
+    border: 0px solid;
+    color: white;
+    font-size: 1.3rem;
+}
+.add-symbol:hover{
+    cursor: pointer;
+    background-color: #6b2b8b;
+}
+.uil-plus{
+    font-size: 1.4rem;
+}
+.todo-input{
+    padding: 6px;
+}
+.todo-container{
+    margin-top: 84px;
+}
+.todo-list{
+    display: grid;
+    gap: 10px;
+}
+.task{
+    border: 0px solid;
+    background-color: white;
+    color: black;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.3rem;
+    width: 595px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0px 5px 6px;
+    transition: all 0.5s ease;
+}
+.task ul{
+    display: flex;
+    flex-flow: row-reverse;
+    list-style: none;
+}
+.uil-check,.uil-trash-alt{
+   font-size: 2rem;
+   padding: 1.2px;
+}
+.task ul li button{
+    background-color: #8b38aa;
+    color: white;
+    border: 0px solid;
+    height: 47px;
+    width: 53px;
+}
+.task ul li button:hover{
+    background-color: #6b2b8b;
+    cursor: pointer;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.fall{
+    transform: translateY(8rem) rotateZ('20deg');
+    opacity: 0;
+}

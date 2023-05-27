@@ -89,3 +89,38 @@ body{
     transform: translateY(8rem) rotateZ('20deg');
     opacity: 0;
 }
+/* Responsivness */
+@media (max-width: 800px){
+    .container{
+        margin-top: 158px;
+        font-size: 1.5rem;
+    }
+    .input-container input{
+        width: 551px;
+        height: 75px;
+        font-size: 1.8rem ;
+    }
+    .add-symbol{
+        height: 85px;
+        width: 88px;
+        font-size: 1.8rem;
+    }
+    .task {
+        width: 655px;
+        height: 75px;
+        font-size: 1.8rem ;
+    }
+    .task ul li button{
+        height: 88px;
+        width: 88px;
+    }
+    .uil-check, .uil-trash-alt {
+        font-size: 2.8rem;
+    }
+}
+@media (max-width: 385px){
+    .container{
+        margin-top: px;
+        font-size: 2.5rem;
+    }
+}
